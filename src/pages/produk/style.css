@@ -1,0 +1,94 @@
+.main-produk-wrapper {
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 5vh;
+  color: green ;
+}
+
+.main-produk-wrapper input {
+  height: 36px;
+  padding: 6px;
+  padding-left: 12px;
+  font-size: 1em;
+  border-radius: 100px;
+  border: 2px solid grey;
+  box-sizing: border-box;
+}
+
+.main-produk-wrapper input:focus {
+  outline: none;
+  border: 2px solid green;
+}
+
+.button-pagination {
+  height:40px;
+  width: 40px;
+  padding: 6px;
+  color: rgba(39, 179, 39, 0.479)
+}
+
+.cari-produk-wrapper {
+  margin: 2.5vh 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pagination-wrapper input {
+  width: 50px;
+  text-align: center;
+  padding-left: 12px;
+}
+
+.produk-wrapper {
+  width: 100%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-gap: 20px;
+  text-decoration: none;
+}
+
+.produk__header {
+  height: 64px;
+  overflow: hidden;
+}
+
+.diskon-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.diskon-wrapper__percentage {
+  padding: 0.3rem 0.5rem;
+  color: rgb(255, 0, 64);
+  background-color: rgb(255, 234, 239);
+  border-radius: 8px;
+}
+
+.harga-produk {
+  margin-left: 0.5rem;
+  text-decoration: line-through;
+}
+
+.harga-produk-terdiskon {
+  margin-top: 0;
+}
+
+@media only screen and (min-width: 500px) {
+  .produk-wrapper {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media only screen and (min-width: 850px) {
+  .produk-wrapper {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .produk-wrapper {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+}

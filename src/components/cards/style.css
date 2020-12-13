@@ -1,0 +1,41 @@
+.cards {
+  background-color: #F4f4f4;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: 0.2s;
+  min-height: 100px;
+  flex-basis: 100%;
+  position: relative;
+  padding: 5px;
+  box-sizing: border-box;
+  overflow: hidden;
+  text-decoration: none;
+  color: #202020;
+  min-height: 100%;
+}
+
+.cards:hover {
+  transform: translateY(-2%);
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+}
+
+.swal2-popup .diskon-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.swal2-popup .diskon-wrapper__percentage {
+  padding: 0.3rem 0.5rem;
+  color: rgb(255, 92, 132);
+  background-color: rgb(255, 234, 239);
+  border-radius: 8px;
+}
+
+.swal2-popup .harga-produk {
+  margin-left: 0.5rem;
+  text-decoration: line-through;
+}
+
+.swal2-popup .harga-produk-terdiskon {
+  margin-top: 0;
+}
